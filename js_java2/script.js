@@ -56,3 +56,53 @@ const countDigits = num => console.log(`რიცხვს აქვს ${num.to
 // let day = prompt("კვირის დღე - რიცხვით");
 // let week = day % 7 ===0 || day % 7 ===6 ? " უქმე":" სამუშაო დღე"
 // console.log(week);
+
+
+
+
+
+5 თებერვალი
+
+let numbers=[10,20,30,40,50];
+for (let item of numbers) {
+    console.log(item);
+    
+}
+
+let number = 12345;
+let result = number.toString().length;
+console.log(result);
+
+let day = 2;
+if (day % 7 === 0 || day % 7 ===6) {
+    console.log("უქმე");    
+}else{
+    console.log('სამუშაო დღე');
+}
+
+if(day >= 1 && day <=5 ){
+    console.log("work");    
+}else if (day === 6 || day === 7) {
+    console.log("not work")
+}else{
+    console.log("it is not right number");
+    
+}
+let age =19;
+if( age > 18 ){
+    console.log("can drink wine");    
+}else{
+    console.log(can drink water);    
+}
+
+age > 18 ? 'wine' : 'water'
+// let result ='wine'
+
+let number =[1,2,3,4,5]
+for ( let num of number){
+    console.log(num);
+    
+}
+    
+
+    
